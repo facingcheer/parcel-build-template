@@ -1,0 +1,24 @@
+{
+  "name": "parcel-build-template",
+  "version": "1.0.1",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel -p 8777 example/index.html",
+    "build": "parcel build NODE_ENV=production src/index.js "
+  },
+  "keywords": [],
+  "author": "Jerod <jerodthecoder@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "postcss-modules": "^1.4.1"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "description": ""
+}
